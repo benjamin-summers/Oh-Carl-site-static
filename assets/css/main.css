@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+div.separator {
+  width: 100%;
+  height: 10px;
+  background-color: #076449;
+}
+
+div.separator-two {
+  width: 100%;
+  height: 10px;
+  background-color: #076449;
+  box-shadow: 2px 2px 2px 1px black;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+}
+header nav {
+  background: url("../img/Artboard 1.png") repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "logo links links";
+}
+header ul.logo {
+  grid-area: logo;
+}
+header ul.logo li > img {
+  height: 75px;
+  width: 75px;
+}
+header ul.nav-items {
+  grid-area: links;
+  font-size: 14px;
+  margin-top: 30px;
+}
+header ul.nav-items li {
+  display: inline-block;
+  color: white;
+  font-family: "Merienda", cursive;
+}
+
+div.feature-image img {
+  width: 100%;
+  height: 250px;
+}
+
+section.home-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "profile about about";
+}
+section.home-content div.profile-pic {
+  width: 100%;
+  grid-area: profile;
+}
+section.home-content div.profile-pic img {
+  width: 100%;
+  height: 100%;
+}
+section.home-content div.about-me-home {
+  width: 100%;
+  height: 100%;
+  grid-area: about;
+  text-align: center;
+  background-image: url();
+}
+
+/*# sourceMappingURL=main.css.map */
