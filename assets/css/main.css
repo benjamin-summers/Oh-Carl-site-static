@@ -80,7 +80,16 @@ section.home-content div.about-me-home {
   height: 100%;
   grid-area: about;
   text-align: center;
-  background-image: url();
+  background-image: url("../img/41436983_10215040281493380_4299613230843559936_o.jpg");
+  background-size: 100%;
+}
+section.home-content div.about-me-home p {
+  color: ghostwhite;
+  background: url("../img/download.jpg");
+  font-size: 16px;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
