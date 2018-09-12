@@ -92,4 +92,11 @@ section.home-content div.about-me-home p {
   border-radius: 10px;
 }
 
+section.home-section-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
 /*# sourceMappingURL=main.css.map */
