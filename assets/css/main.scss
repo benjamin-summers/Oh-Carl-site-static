@@ -99,9 +99,56 @@ section.home-content {
 
 }
 
-section.home-section-grid {
+section.home-image-grid {
   width: 100%;
+  height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  grid-row-gap: 0;
+  grid-template-areas: "div1 div2"
+                       "div3 div4"
+                        "div5 div6";
+
+  div.img-one {
+    img {
+      width: 100%;
+    }
+    grid-area: div1;
+  }
+
+  div.img-two {
+    img {
+      width: 100%;
+    }
+    grid-area: div2;
+  }
+
+  div.img-three {
+    img {
+      width: 100%;
+    }
+    grid-area: div3;
+  }
+
+  div.img-four {
+    img {
+      width: 100%;
+    }
+    grid-area: div4;
+  }
+
+  div.img-five {
+    img {
+      width: 100%;
+    }
+    grid-area: div5;
+  }
+
+  div.img-six {
+    img {
+      width: 100%;
+    }
+    grid-area: div6;
+  }
 }
