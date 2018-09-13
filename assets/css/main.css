@@ -138,4 +138,10 @@ section.home-image-grid div.img-six img {
   width: 100%;
 }
 
+@media screen and (min-width: 700px) {
+  section.home-content div.about-me-home p {
+    font-size: 22px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

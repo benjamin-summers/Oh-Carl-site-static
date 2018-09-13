@@ -1,0 +1,52 @@
+div.separator {
+  width: 100%;
+  height: 10px;
+  background-color: $green-egg;
+}
+
+div.separator-two {
+  width: 100%;
+  height: 10px;
+  background-color: $green-egg;
+  box-shadow: 2px 2px 2px 1px black;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+
+  nav {
+    background: url("../img/Artboard 1.png") repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "logo links links";
+  }
+
+  ul.logo {
+    grid-area: logo;
+    li>img {
+      height: 75px;
+      width: 75px;
+    }
+  }
+
+  ul.nav-items {
+    grid-area: links;
+    font-size: 14px;
+    margin-top: 30px;
+    li {
+      display: inline-block;
+      color: white;
+      font-family: 'Merienda', cursive;
+    }
+  }
+}
+
+div.feature-image img {
+  width: 100%;
+  height: 250px;
+}
