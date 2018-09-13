@@ -1,0 +1,47 @@
+@media screen and (min-height: 700px) {
+  div.feature-image img {
+    height: 325px;
+  }
+
+  section.home-content div.about-me-home p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-height: 959px) {
+  div.feature-image img {
+    height: 380px;
+  }
+
+  section.home-content div.about-me-home p {
+    font-size: 28px;
+  }
+
+  header {
+    height: 110px;
+
+    nav {
+      height: 110px;
+      grid-template-areas: "logo logo logo"
+                            "links links links";
+    }
+
+    ul.logo {
+      text-align: center;
+      li>img {
+        height: 85px;
+        width: 85px;
+      }
+    }
+
+    ul.nav-items {
+      font-size: 17px;
+      margin-top: 0;
+      text-align: center;
+      li {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

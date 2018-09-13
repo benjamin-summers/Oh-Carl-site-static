@@ -1,3 +1,8 @@
+div.feature-image img {
+  width: 100%;
+  height: 250px;
+}
+
 section.home-content {
   width: 100%;
   display: grid;
@@ -81,11 +86,5 @@ section.home-image-grid {
       width: 100%;
     }
     grid-area: div6;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  section.home-content div.about-me-home p {
-    font-size: 22px;
   }
 }
